@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		D8ACB9DF22616309008F2F35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACB9DE22616309008F2F35 /* AppDelegate.swift */; };
-		D8ACB9E122616309008F2F35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACB9E022616309008F2F35 /* ViewController.swift */; };
 		D8ACB9E422616309008F2F35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ACB9E222616309008F2F35 /* Main.storyboard */; };
 		D8ACB9E722616309008F2F35 /* Audio_Capture_and_Playback.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8ACB9E522616309008F2F35 /* Audio_Capture_and_Playback.xcdatamodeld */; };
 		D8ACB9E92261630A008F2F35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8ACB9E82261630A008F2F35 /* Assets.xcassets */; };
 		D8ACB9EC2261630A008F2F35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ACB9EA2261630A008F2F35 /* LaunchScreen.storyboard */; };
 		D8ACB9F72261630A008F2F35 /* Audio_Capture_and_PlaybackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACB9F62261630A008F2F35 /* Audio_Capture_and_PlaybackTests.swift */; };
 		D8ACBA022261630A008F2F35 /* Audio_Capture_and_PlaybackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACBA012261630A008F2F35 /* Audio_Capture_and_PlaybackUITests.swift */; };
+		D8ACBA1022616332008F2F35 /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8ACBA0F22616332008F2F35 /* AudioPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		D8ACB9DB22616309008F2F35 /* Audio Capture and Playback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio Capture and Playback.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8ACB9DE22616309008F2F35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D8ACB9E022616309008F2F35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8ACB9E322616309008F2F35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8ACB9E622616309008F2F35 /* Audio_Capture_and_Playback.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Audio_Capture_and_Playback.xcdatamodel; sourceTree = "<group>"; };
 		D8ACB9E82261630A008F2F35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		D8ACB9FD2261630A008F2F35 /* Audio Capture and PlaybackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Audio Capture and PlaybackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8ACBA012261630A008F2F35 /* Audio_Capture_and_PlaybackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio_Capture_and_PlaybackUITests.swift; sourceTree = "<group>"; };
 		D8ACBA032261630A008F2F35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8ACBA0F22616332008F2F35 /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				D8ACB9DE22616309008F2F35 /* AppDelegate.swift */,
-				D8ACB9E022616309008F2F35 /* ViewController.swift */,
+				D8ACBA0F22616332008F2F35 /* AudioPlayerViewController.swift */,
 				D8ACB9E222616309008F2F35 /* Main.storyboard */,
 				D8ACB9E82261630A008F2F35 /* Assets.xcassets */,
 				D8ACB9EA2261630A008F2F35 /* LaunchScreen.storyboard */,
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8ACB9E122616309008F2F35 /* ViewController.swift in Sources */,
 				D8ACB9DF22616309008F2F35 /* AppDelegate.swift in Sources */,
 				D8ACB9E722616309008F2F35 /* Audio_Capture_and_Playback.xcdatamodeld in Sources */,
+				D8ACBA1022616332008F2F35 /* AudioPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
